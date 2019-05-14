@@ -30,7 +30,7 @@ conda install -c conda-forge wordcloud
 
 ### Opening notebook
 
-Once the jupyter session is running navigate to the notebook [nlp-workshop.ipynb](nlp-workshop.ipynb)
+Once the jupyter session is running navigate to the notebook [tutorial.ipynb](nbs/tutorial.ipynb)
 
 ## License
 
