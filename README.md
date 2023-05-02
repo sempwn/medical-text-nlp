@@ -32,6 +32,23 @@ conda install -c conda-forge wordcloud
 
 Once the jupyter session is running navigate to the notebook [tutorial.ipynb](nbs/tutorial.ipynb)
 
+### (Optional) setting up using docker
+
+For enhanced replicability a [Docker environment](https://docs.docker.com/get-started/) is also provided with the repo, along with a [requirements.txt](requirements.txt) file specifying the Python libraries required. In order to set up the project within this framework run through the following steps
+
+Install [Docker Desktop](https://www.docker.com/products/docker-desktop) 
+
+Build the container by running the following command
+```docker build --pull --rm -f "Dockerfile.dockerfile" -t medicaltextnlp:latest "."```
+
+Run docker
+```docker run --rm -d -p 8888:8888/tcp medicaltextnlp:latest```
+
+Navigate to the following in a web browser
+```http://localhost:8888/```
+
+You will need an access token which can be found in the terminal logs. For more information read the [Jupyter Docker Stacks](https://jupyter-docker-stacks.readthedocs.io/en/latest/index.html) docs.
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
