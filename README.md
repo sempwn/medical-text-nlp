@@ -1,5 +1,7 @@
 # medical-text-nlp
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sempwn/medical-text-nlp/HEAD?labpath=slides%2Fnlp_overview_slides.ipynb)
+
 Tutorial for applying machine learning to text data within healthcare
 
 
